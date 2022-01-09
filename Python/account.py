@@ -5,8 +5,7 @@ class Account:
     mail = str
     password = str
 
-    def __init__(self, name, document, mail, password):
+    def __init__(self, name, document):
         self.name = name
         self.document = document
-        self.mail = mail
-        self.password = password
+        
